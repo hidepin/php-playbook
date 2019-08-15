@@ -1,0 +1,8 @@
+---
+# file: roles/pip/defaults/main.yml
+proxy_env:
+  no_proxy: '*'
+#  http_proxy: http://172.16.111.1:8080
+#  https_proxy: http://172.16.111.1:8080
+php_version: 7.0.33-12.el7.remi
+php_repo: remi-php70
